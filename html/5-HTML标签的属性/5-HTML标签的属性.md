@@ -28,7 +28,7 @@
 
 例子
 ```html
-<img src="assets/cat.png" width="600" height="200">
+<img src="assets/cat.png" width="600px" height="300px" alt="猫">
 ```
 
 ## 标签的样式属性
