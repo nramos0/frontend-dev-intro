@@ -25,11 +25,11 @@ HTML/5里介绍过简单的样式，这里介绍更多常用的样式属性。
 
 例子
 ```html
-<p style="font-size: 50px">文本</p>
+<p style="font-size: 50px;">文本</p>
 ```
 
 ```html
-<p style="font-size: 120%">文本</p>
+<p style="font-size: 120%;">文本</p>
 ```
 
 ## 字体颜色样式属性
@@ -41,15 +41,15 @@ HTML/5里介绍过简单的样式，这里介绍更多常用的样式属性。
 
 例子
 ```html
-<p style="color: #A9F391">文本</p>
+<p style="color: #A9F391;">文本</p>
 ```
 
 ```html
-<p style="color: red">文本</p>
+<p style="color: red;">文本</p>
 ```
 
 ```html
-<p style="color: rgb(243, 33, 150)">文本</p>
+<p style="color: rgb(243, 33, 150);">文本</p>
 ```
 
 ## 背景颜色样式属性
@@ -58,15 +58,15 @@ HTML/5里介绍过简单的样式，这里介绍更多常用的样式属性。
 
 例子
 ```html
-<p style="background-color: #A9F391">文本</p>
+<p style="background-color: #A9F391;">文本</p>
 ```
 
 ```html
-<p style="background-color: red">文本</p>
+<p style="background-color: red;">文本</p>
 ```
 
 ```html
-<p style="background-color: rgb(243, 33, 150)">文本</p>
+<p style="background-color: rgb(243, 33, 150);">文本</p>
 ```
 
 ```html
