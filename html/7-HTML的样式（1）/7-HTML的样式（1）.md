@@ -74,6 +74,10 @@ HTML/6里介绍过简单的样式，这里介绍更多常用的样式属性。
 <p style="background-color: tomato;">这是一个段落标签</p>
 ```
 
+```html
+<p>我母亲是<span style="color: blue"><strong>医生</strong></span>。她每天非常<span style="color: darkolivegreen;">辛苦</span></p>
+```
+
 ## 字体类型样式属性
 - 字体类型样式属性可以改变标签里文本的字体类型，样式属性为font-family
 - 支持的属性值可以在网上查
