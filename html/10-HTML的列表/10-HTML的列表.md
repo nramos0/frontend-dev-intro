@@ -32,9 +32,9 @@
 
 ```html
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>咖啡</li>
+  <li>茶</li>
+  <li>牛奶</li>
 </ul> 
 ```
 
