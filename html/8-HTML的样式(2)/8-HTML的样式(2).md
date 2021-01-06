@@ -11,8 +11,8 @@
   - 填充：内容外面且方框里面的空间，是透明的
     - 一般用于增加元素所占用的空间
   - 边框：围住内容的边框，是盒子模型的唯一可见部分
-  - 边距：
-   - 一般用于增加元素和其他元素之间的距离
+  - 边距：方框外面的空间，是透明的
+    - 一般用于增加元素和其他元素之间的距离
 - 以上边距、边框、填充属于外层的方框，而该方框围住的就是某个元素的实际内容
 
 ![盒子模型](./doc_assets/box-model.png "盒子模型")
@@ -32,7 +32,7 @@
   - 下侧：padding-bottom
   - 左侧：padding-left
   - 一次全部定义：`padding: [上] [右] [下] [左];`
-    - 如`padding: 1px 2px 3px 4px;`是padding-top为1px、padding-right为2px、padding-bottom为3px、padding-bottom为4px
+    - 如`padding: 1px 2px 3px 4px;`是padding-top为1px、padding-right为2px、padding-bottom为3px、padding-left为4px
 - 边框：
   - 上侧：border-top
   - 右侧：border-right
@@ -40,6 +40,7 @@
   - 左侧：border-left
   - 一次全部定义：`border: [大小] [类型] [颜色];`
     - 如`border: 2px solid red;`是border-top、border-right、border-bottom、border-left均为2px solid red
+
 - 边距：
   - 上侧：margin-top
   - 右侧：margin-right
@@ -66,7 +67,7 @@
 
 含有大小为5px的橙色边框的h3标题
 ```html
-<h3 style="border: 5px solid orange;">段落</h3>
+<h3 style="border: 5px solid orange;">标题</h3>
 ```
 
 有20px的填充和薄绿色边框的块级容器，里面有描述北京市的h2标题和p段落
