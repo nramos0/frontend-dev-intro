@@ -1,0 +1,14 @@
+ul {
+    margin-left: 10%;
+    background-color: rgb(50, 50, 50);
+}
+
+li {
+    padding: 10px;
+    color: green;
+}
+
+h3 {
+    padding: 20px;
+    background-color: orange;
+}
