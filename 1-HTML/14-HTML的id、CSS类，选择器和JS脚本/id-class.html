@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML的id、CSS类，选择器和JS脚本</title>
+        <style>
+            #myHeader {
+                background-color: lightblue;
+                color: black;
+                padding: 40px;
+                text-align: center;
+            }
+
+            .city {
+                background-color: orange;
+                color: white;
+                padding: 10px;
+            }
+
+            .city-desc {
+                margin-bottom: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 网页顶的书签 -->
+        <span id="top"></span>
+
+        <h3>编号为myFavoriteAnimals的段落标签</h3>
+        <p id="myFavoriteAnimals">
+            狗、猫、乌龟
+        </p>
+
+        <h3>同时使用编号和类</h3>
+        <!-- 含有唯一编号的元素 -->
+        <h1 id="myHeader">My Cities</h1>
+
+        <!-- 使用同一类的多个元素 -->
+        <h2 class="city">伦敦</h2>
+        <p class="city-desc">伦敦是英国的首都。</p>
+
+        <h2 class="city">巴黎</h2>
+        <p class="city-desc">巴黎是法国的首都。</p>
+
+        <h2 class="city">东京</h2>
+        <p class="city-desc">东京是日本的首都。</p>
+
+        <h3>脚本的使用</h3>
+        <h1 id="script-header">你好,世界!</h1>
+        <input type="button" value="修改文本" onclick="displayResult()" /> <br />
+
+        <br />
+        <br />
+      
+        <a href="#top">返回到最上面</a>
+
+        <script>
+            function displayResult() {
+                document.getElementById("script-header").innerHTML = "祝你一天愉快！";
+            }
+        </script>
+    </body>
+</html>
