@@ -1,4 +1,4 @@
-# 14 - HTML的id、CSS类，选择器和JS脚本
+# 15 - HTML的id、CSS类，选择器和JS脚本
 
 ## HTML的唯一编号：id标签属性
 - 在HTML/13里有介绍HTML标签的id属性，也就是标签的可选唯一编号
