@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>表单</title>
+    </head>
+    <body>
+        <h3>表单1 - 多行输入框</h3>
+        <form>
+            <label for="description1">请你介绍一下你自己</label><br />
+            <textarea id="description1" name="description1" rows="10" cols="30">我是一个###的人</textarea>
+
+            <br />
+
+            <label for="description2">请你介绍一下你自己</label><br />
+            <textarea id="description2" name="description2" style="width: 400px; height: 300px;">我是一个###的人</textarea>
+        </form>
+
+        <br />
+
+        <h3>表单2 - 菜单</h3>
+        <form>
+            <label for="breakfast">选择你的早餐</label><br />
+            <select id="breakfast" name="breakfast">
+              <option value="dumplings">饺子</option>
+              <option value="youtiao">油条</option>
+              <option value="toast">吐司</option>
+              <option value="baozi">包子</option>
+            </select>
+        </form>
+
+        <br />
+
+        <h3>表单2 - 菜单(多选)</h3>
+        <form>
+            <label for="breakfast">选择你的早餐</label><br />
+            <select id="breakfast" name="breakfast" multiple>
+              <option value="dumplings">饺子</option>
+              <option value="youtiao">油条</option>
+              <option value="toast">吐司</option>
+              <option value="baozi">包子</option>
+            </select>
+        </form>
+
+        <br />
+
+        <h3>表单3 - 菜单(大小限制)</h3>
+        <form>
+            <label for="breakfast">选择你的早餐</label><br />
+            <select id="breakfast" name="breakfast" size="2">
+              <option value="dumplings">饺子</option>
+              <option value="youtiao">油条</option>
+              <option value="toast">吐司</option>
+              <option value="baozi">包子</option>
+            </select>
+        </form>
+
+        <br />
+
+        <h3>表单4 - 菜单(单选默认选项)</h3>
+        <form>
+            <label for="breakfast">选择你的早餐</label><br />
+                <select id="breakfast" name="breakfast" multiple>
+                <option value="dumplings">饺子</option>
+                <option value="youtiao">油条</option>
+                <option value="toast" selected>吐司</option>
+                <option value="baozi">包子</option>
+            </select>
+        </form>
+
+        <br />
+
+        <h3>表单5 - 菜单(多选默认选项)</h3>
+        <form>
+            <label for="breakfast">选择你的早餐</label><br />
+                <select id="breakfast" name="breakfast" multiple>
+                <option value="dumplings" selected>饺子</option>
+                <option value="youtiao">油条</option>
+                <option value="toast" selected>吐司</option>
+                <option value="baozi">包子</option>
+            </select>
+        </form>
+
+        <br />
+    </body>
+</html>
