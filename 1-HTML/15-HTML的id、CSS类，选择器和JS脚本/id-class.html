@@ -50,12 +50,28 @@
 
         <br />
         <br />
+
+        <h3>使用JS修改样式</h3>
+        <h1 id="header1">h1</h1>
+        <h2 id="header2">h2</h1>
+        <h3 id="header3">h3</h1>
+
+        <input type="button" value="修改样式" onclick="modifyStyle()" /> <br />
+
+        <br />
+        <br />
       
         <a href="#top">返回到最上面</a>
 
         <script>
             function displayResult() {
                 document.getElementById("script-header").innerHTML = "祝你一天愉快！";
+            }
+
+            function modifyStyle() {
+                document.getElementById("header1").style.fontSize = "60px";
+                document.getElementById("header2").style.color = "red";
+                document.getElementById("header3").style.backgroundColor = "yellow";
             }
         </script>
     </body>

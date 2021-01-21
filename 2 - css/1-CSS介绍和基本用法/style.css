@@ -1,0 +1,8 @@
+.color-white-bg-black {
+    color: white;
+    background-color: black;
+}
+
+p .color-white-bg-black {
+    background-color: gray;
+}

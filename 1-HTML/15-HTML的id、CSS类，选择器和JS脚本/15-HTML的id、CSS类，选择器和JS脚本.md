@@ -105,7 +105,7 @@
     </head>
     <body>
         <!-- 含有唯一编号的元素 -->
-        <h1 id="myHeader">My Cities</h1>
+        <h1 id="myHeader">我的城市</h1>
 
         <!-- 使用同一类的多个元素 -->
         <h2 class="city">伦敦</h2>
@@ -121,7 +121,7 @@
 ```
 
 ## 编号的应：网页书签
-- 可以通过编号和链接标签来提供这么一个功能：从网页某个地方跳到王爷的另外一个地方的
+- 可以通过编号和链接标签来提供这么一个功能：从网页某个地方跳到网页的另外一个地方
 - 做法如下：
   - 定义一个使用编号标签属性的标签（书签标签）
   - 定义一个链接标签，href属性为该书签标签的id选择器表达式
@@ -161,6 +161,8 @@
 
         <script>
             function displayResult() {
+                // 当前的 document.getElementById("myHeader").innerHTML 为"你好，世界！"
+                
                 document.getElementById("myHeader").innerHTML = "祝你一天愉快！";
             }
         </script>
@@ -176,3 +178,31 @@
   - JS可以通过document.getElementById()函数访问一个编号的对应元素
     - document是已经开始显示的HTML文档在浏览器里的数据结构表示
   - 通过getElementbyId()获得的HTML元素有一个innerHTML属性，该属性对应的是元素全部孩子的HTML代码表示，在此直接写了文本“祝你一天愉快！”
+
+## JS里修改样式
+- 除了元素里面的HTML代码之外，还可以修改元素的样式
+- 通过元素的style属性，可以访问并修改元素的行内样式
+- 通过JS访问元素的样式属性，所有的样式属性的`-`字符被去掉，并`-`之后的每个字母要大写
+  - 比如`background-color`就会变成`backgroundColor`等
+
+例子
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 id="header1">h1</h1>
+        <h2 id="header2">h2</h1>
+        <h3 id="header3">h3</h1>
+
+        <input type="button" value="修改样式" onclick="modifyStyle()" />
+
+        <script>
+            function modifyStyle() {
+                document.getElementById("header1").style.fontSize = "25px";
+                document.getElementById("header2").style.color = "red";
+                document.getElementById("header3").style.backgroundColor = "yellow";
+            }
+        </script>
+    </body>
+</html>
+```
